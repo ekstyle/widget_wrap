@@ -1,0 +1,89 @@
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+#kassy_close {
+    cursor: pointer;
+    margin-top: -5px;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+    z-index: 9999999;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+#kassy_close:hover {
+    opacity: 1;
+}
+#kassy_resize {
+    cursor: pointer;
+    position: absolute;
+    top: 13px;
+    right: 58px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+    z-index: 9999999;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+#kassy_resize:hover {
+    opacity: 1;
+}
+.kassy_container {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 780px;
+    height: 500px;
+
+    -webkit-overflow-scrolling:touch;
+
+    margin: auto;
+    z-index: 9999999;
+    border: 4px solid #161616;
+    box-shadow: 0 0 30px -5px #000;
+}
+.full {
+    width: 100vw;
+    height: 100vh;
+}
+.kassy_container iframe {
+    position: relative;
+    resize: both;
+    /*
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    */
+    border: 0;
+    background: #FFF;
+
+    width: 1px;
+    height: 1px;
+
+    min-width: 100%;
+    min-height: 100%;
+    *width: 100%;
+    *height: 100%;
+
+    /* min-width:  100%; */
+    /* min-height:  100%; */
+}
+.kassy_cover {
+    background: #000;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999998;
+
+}
