@@ -51,7 +51,7 @@ let widget_kassy  = (() => {
         i_frame.setAttribute('src',src);
         i_frame.setAttribute('scrolling', 'no');
         container.appendChild(i_frame);
-        [close_btn(), resize_btn()].map(item => container.appendChild(item));
+        (mobilecheck()? [close_btn()]:[close_btn(), resize_btn()]).map(item => container.appendChild(item));
         mobilecheck() ? container.classList.toggle(FULL): null ;
         doc.body.style.overflow = 'hidden';
     }

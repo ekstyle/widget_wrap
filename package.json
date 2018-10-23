@@ -1,0 +1,24 @@
+{
+  "name": "widget_wrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekstyle/widget_wrap.git"
+  },
+  "author": "ekstyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekstyle/widget_wrap/issues"
+  },
+  "homepage": "https://github.com/ekstyle/widget_wrap#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  }
+}
